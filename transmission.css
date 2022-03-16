@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(247, 250, 252)
+}
+
+header{
+    text-align: center;
+}
+
+.p1{
+  color:  #0d6efd;
+  font-size: 20px;
+}
+
+.seperate{
+    border-bottom:5px solid #0f6dfa   ;
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.width{
+    width: 18rem;
+}
+
+.card-p{
+    color: #0f6dfa ;
+  font-size: 15px;
+}
+
+.button{
+   display:flex;
+   justify-content: center;
+   margin-top: 50px;
+   
+}
+
+.button1{
+   background-color: #0d6efd;
+   border: none;
+   padding:10px;
+   border-radius: 50px;
+   padding-right:45px;
+   padding-left:45px;
+   
+}
+
+.icon{
+    color:white;
+   
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:black;
+}

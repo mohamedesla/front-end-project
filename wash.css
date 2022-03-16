@@ -1,0 +1,22 @@
+body{
+ background-color: rgb(247, 250, 252);
+}
+
+.div-title{
+    text-align: center;
+}
+
+.hand{
+   text-decoration: none; 
+}
+
+.div-item{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.gel{
+    border-radius: 50px;
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: url("coronabackground.PNG");
+background-color: rgb(70, 70, 247);
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h1{
+    color:white;
+}
+
+.p1{
+    color:aqua;
+}
+
+.p2{
+    color:white;
+}
+
+.p3{
+    color:white;
+}
+
+.p4{
+    color:white;
+}
+
+.span-1{
+    padding-left:7px;
+}
+
+.back-ground{
+    background-color: blue;
+}
+
+@media only screen and (max-width:600px){
+    .div-mobile{
+        text-align: center;
+    }
+}

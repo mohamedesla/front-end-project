@@ -1,0 +1,174 @@
+body{background-image: url("coronabackground.png");}
+
+
+/*header begin*/
+
+header{
+    text-align: center;
+}
+
+.protect{
+    
+    color:rgb(56, 56, 238);
+    
+}
+
+.prevent{
+    
+    color:rgb(66, 66, 66);
+}
+
+
+/* header ends */
+
+/* section begin */
+
+.advice{
+display:flex;
+justify-content: space-around;
+}
+
+.wash{
+
+    margin-left:59px;
+   
+    border-radius: 50px;
+}
+
+.wash2{
+    width:100%;
+    text-align: center;
+    padding-right: 93px;
+
+
+}
+
+.wash3{
+    border-radius: 46px;
+}
+
+.house{
+    margin-left:59px;
+    border-radius: 46px;
+}
+.house2{
+    width:100%;
+    text-align: center;
+    padding-right: 93px;
+}
+
+.cough{
+    margin-left:56px;
+    border-radius: 46px;
+}
+
+.cough2{
+    width:100%;
+    text-align: center;
+    padding-right: 93px;
+}
+
+.cough3{
+    margin-left: 21px;
+}
+
+
+.tissue{
+    margin-left:59px;
+    border-radius: 46px;
+}
+
+.tissue2{
+    width:100%;
+    text-align: center;
+    padding-right: 93px;
+}
+
+
+.btn1{
+    border: none;
+    background-color: rgb(56, 56, 238);
+    color: white;
+    border-radius: 23px;
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 26px;
+   
+}
+
+.link1{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+
+.link1:hover{
+    color:black;
+}
+
+.btn2{
+    border:none;
+    background-color:aliceblue;
+    color:rgb(56, 56, 238);
+    border-radius: 23px;
+    padding:5px;
+    padding-left:47px;
+    padding-right: 56px;
+}
+
+.link2{
+    text-decoration: none;
+    color:rgb(56, 56, 238);
+}
+
+
+.div-btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    margin-top:30px;
+}
+@media only screen and  (max-width:600px){
+    .advice{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 89px;
+        }
+
+ .cough2{
+    width: 100%;
+    text-align: center;
+    padding-right: 81px
+ }
+ 
+.tissue2{
+    width: 100%;
+    text-align: center;
+    padding-right: 82px
+}
+
+.div-btn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:10px;
+    margin-top:30px;
+}
+
+.div-btn1{
+    margin-bottom: 10px;
+}
+}
+
+
+
+
+@media only screen and (min-width:700px) and (max-width:1026px){
+    .advice{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 89px;
+        }
+}

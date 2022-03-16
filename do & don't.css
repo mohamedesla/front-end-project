@@ -1,0 +1,74 @@
+body{background-image: url("coronabackground.PNG");}
+
+/* header */
+
+header{
+    text-align: center;
+}
+
+#title{
+    color:rgb(55, 55, 221);
+}
+
+h1{
+    color:rgb(55, 55, 167);
+}
+
+/* header ends */
+
+/* section begin */
+
+/*.hand{
+    border:2px solid red;
+    border-radius: 100px;
+    margin-left: 10px;
+    position: relative;
+    z-index: -1;
+}*/
+
+
+.p1{
+    color:rgb(55, 55, 167);
+    margin-right: 10px;
+}
+.touch{
+    margin-left:29px;
+}
+
+.p2{
+    color:rgb(55, 55, 167);
+}
+
+.p3{
+    color:rgb(55, 55, 167);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+
+    .sneeze{
+        margin-left: 107px;
+        margin-top: 44px;
+        width:50%;
+    }
+
+    .right{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:950px){
+    .sneeze{
+        margin-left: 165px;
+        margin-top: 44px;
+        width:50%;
+    }
+
+    .text{
+        text-align: center;
+        margin-left: 168px;
+    }
+    .right{
+        margin-right: 195px;
+    }
+}

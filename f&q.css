@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(247, 250, 252)
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+.p1{
+    color:rgb(70, 70, 247);
+}
+
+.align{
+    text-align: center;
+}
+
+
+
+.box {
+    border: 2px solid #dee2e6 ;
+    padding:6px;
+    border-radius: 5px;
+    
+
+  }
+
+.box:hover{
+
+   border-color:#0d6efd;
+   cursor: pointer;
+   color:#0d6efd;
+}
+
+
+
+  .icon{
+      padding-left:10px;
+  }
+
+  .icon1{
+      padding-left:143px; 
+  }
+
+  .icon2{
+      padding-left:75px;
+  }
+
+  .icon3{
+      padding-left:98px;
+  }
+
+  .icon4{
+      padding-left:38px;
+  }
+
+  .icon5{
+      padding-left:44px;
+  }
+
+
+ 
+  
+ 

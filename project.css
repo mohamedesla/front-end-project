@@ -1,0 +1,437 @@
+/*background image*/
+body {
+    background-image: url("coronabackground.PNG");
+} 
+
+/*background image end */
+
+/*header*/
+
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon{
+    font-size: 40px;
+    display:none;
+}
+
+.nav{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+
+
+
+.btn1{
+    border:none;
+    color:white;
+    background-color: rgb(56, 56, 238);
+    padding:10px;
+    border-radius: 20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
+
+.btn-nav{
+    text-decoration: none;
+    color:white;
+}
+
+.btn-nav:hover{
+    color:black;
+    
+}
+
+/* header ends */
+
+/* section begins*/
+.corona{
+    font-size:100px;
+    display: inline-block;
+}
+
+.covid{
+    display:inline-block;
+    
+}
+
+.covid1{
+    color:red;
+}
+
+.btn2{
+    border: none;
+    background-color: rgb(56, 56, 238);
+    color: white;
+    border-radius: 23px;
+    padding: 5px;
+    padding-left: 47px;
+    padding-right: 56px;
+    margin-left: 50px;
+    
+}
+
+.btn2:hover{
+    transform: scale(1.1) ;
+}
+
+.btn3{
+    border:none;
+    background-color:aliceblue;
+    color:rgb(56, 56, 238);
+    border-radius: 23px;
+    padding:5px;
+    padding-left:47px;
+    padding-right: 56px;
+    
+}
+
+.btn3:hover{
+    transform:scale(1.1)
+}
+
+.cases{
+    font-size: 14px;
+}
+
+.world{
+    margin-top:100px;
+    margin-right: 20px;
+    margin-left: 55px;
+}
+
+.numbers{
+    font-size: x-large;
+    font-stretch:extra-expanded;
+}
+
+.deaths{
+    margin-left: 20px;
+}
+
+.death{
+    font-size: 14px;
+}
+
+.death-num{
+    font-size: x-large;
+}
+
+.recover{
+    margin-left:30px;
+}
+
+.recovery{
+    font-size:14px;
+}
+
+.recover-num{
+    font-size: x-large;
+}
+
+.update{
+    margin-left:50px;
+    font-size: 15px;
+    color:grey;
+    font-style: italic;
+}
+
+.advice{
+    float:right;
+}
+
+.protect{
+    text-decoration: none;
+    color:white;
+
+}
+
+.protect:hover{
+    color:black;
+}
+
+.p5{
+    font-size: 40px;
+    color:white;
+}
+/*section ends*/
+
+/*footer begins*/
+
+footer{background-image: url("coronabackground.png");
+    background-color:rgb(5, 5, 53);
+    
+    
+}
+
+.p6{
+    color:white;
+}
+
+.p7{
+    color:white;
+}
+
+.div-flex2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.btn4{
+border:none;
+background-color: rgb(43, 43, 197);
+color:white;
+padding:5px;
+padding-right:10px;
+padding-left:10px;
+
+}
+
+.btn5{
+    border:none;
+background-color: rgb(34, 219, 219);
+color:white;
+padding:5px;
+padding-right:10px;
+padding-left:10px;
+margin-left: 10px;
+}
+
+.btn6{
+    border:none;
+    background-color: rgb(241, 78, 78);
+    color:white;
+    padding:5px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-left:10px;
+}
+
+.div3-flex{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color:white;
+}
+
+.div4{
+    margin-left: 68px;
+    color:white;
+}
+
+
+.div5{
+    margin-left:30px;
+}
+
+.policy{
+    color:white;
+}
+
+.privacy{
+    
+    float: right;
+    margin-right: 60px;
+}
+
+.line{
+    color:grey;
+    position: center;
+
+}
+/*footer ends*/
+@media only screen and (max-width: 700px) {
+   .icon {
+      display:inline-block;
+    margin-right:20px;
+    cursor: pointer;
+
+
+    }
+
+    .m-25{
+        margin-right:210px;
+        transition: 0.7s ease-in-out;
+    }
+
+    #menu-mobile{
+        
+  display: block;      
+  position: fixed;      
+  top: 0;
+  right: -50%;
+  background-color:aqua;
+  height: 100vh;
+  width: 35%;
+  z-index: 999999;
+  transition: 0.7s ease-in-out;
+  
+  
+  }
+  
+  
+    
+
+    .nav{
+        padding:20px;
+        padding-left:10px;
+        text-align: center;
+    }
+    .out{
+        right:0 !important
+    }
+    .align{
+        text-align: left;
+    }
+    .btn1{
+        text-align: left;
+        padding-left: 7px;
+        padding-right:7px;
+    }
+    .section{
+        margin-right:30px;
+    }
+
+    .corona{
+        font-size:45px;
+        text-align: center;
+    }
+    .covid1{
+        font-size:15px;
+        color:red;
+    }
+    .covid2{
+        font-size:15px;
+    }
+
+    
+    .btn2{
+        text-align: center;
+        margin:2px;
+        padding:10px;
+        padding-left:35px;
+        padding-right: 35px;
+    }
+
+    .btn3{
+        margin:2px;
+        padding:10px;
+        padding-left:35px;
+        padding-right: 35px;
+        
+    }
+    .recover{
+        display:block !important;
+        margin-left: 46px
+        
+
+    }
+    .deaths{
+        display: block !important;
+        margin-left: 48px;
+        
+    }
+    .world{
+        display:block !important;
+        margin-top: 10px;
+        margin-left:42px;
+    }
+    .update{
+        margin-left:3px;
+        font-size: 10px;
+    }
+    .advice{
+        margin-right:106px;
+    }
+
+    .div-mobile2{
+        text-align: center;
+    }
+
+    .p5{
+        
+        font-size: 20px;
+    }
+
+    .img2{
+        width:6%;
+    }
+
+    .div-flex-mobile{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-right:15px;
+
+    }
+
+    .btn5{
+        margin-top: 5px;
+    }
+    .btn6{
+        margin-top: 5px;
+    }
+
+    .btn4{
+        margin-left:10px;
+    }
+
+    .div-mobile3{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .content-2{
+        margin-right: 60px;
+    }
+
+    .content-3{
+        margin-right: 20px;
+    }
+
+    
+    .policy{
+        text-align: center;
+    }
+    
+    .privacy{display: none;}
+    
+  }
+
+
+  
+  @media only screen and (min-width: 750px) and (max-width:900px){
+      .advice{
+
+        text-align: center;
+      }
+
+      .img2{
+          width:6%;
+      }
+
+      .privacy{
+          display:none;
+      }
+  }
+
+
